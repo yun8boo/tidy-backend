@@ -8,7 +8,7 @@
     "clean": "rimraf dist/*",
     "tsc": "tsc",
     "build": "npm-run-all clean tsc",
-    "start": "NODE_ENV=production && node dist/index.js",
+    "start": "NODE_ENV=production && node dist/src/index.js",
     "ts-node-start": "ts-node src/index.ts"
   },
   "dependencies": {
